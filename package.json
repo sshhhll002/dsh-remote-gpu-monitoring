@@ -1,0 +1,44 @@
+{
+  "name": "dsh-remote-gpu-monitoring",
+  "version": "1.0.0",
+  "description": "Remote multi-server GPU status board for DeepSeek Harness Web: read-only nvidia-smi over SSH with ControlMaster-muxed connections, a host-side cached snapshot, per-server selection, and gpu_overview / gpu_refresh agent tools.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshhhll002/dsh-remote-gpu-monitoring.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "gpu",
+    "nvidia-smi",
+    "ssh",
+    "monitoring",
+    "remote"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

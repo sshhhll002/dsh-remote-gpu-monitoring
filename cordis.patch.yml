@@ -1,0 +1,6 @@
+# dsh-remote-gpu-monitoring bundle layer: one dual-face row.
+# The package declares dsh.client, so the web module host also serves
+# /plugins/dsh-remote-gpu-monitoring/client.js from this same row's package.
+- insert:
+    - id: remote-gpu-monitoring
+      name: dsh-remote-gpu-monitoring
