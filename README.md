@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="GitHub release" src="https://img.shields.io/github/v/release/sshhhll002/dsh-remote-gpu-monitoring">
   <img alt="License" src="https://img.shields.io/github/license/sshhhll002/dsh-remote-gpu-monitoring">
-  <img alt="dsh-plugin" src="https://img.shields.io/badge/dsh-plugin-available-2563eb">
+  <img alt="dsh-plugin" src="https://img.shields.io/badge/available-2563eb?label=dsh-plugin">
 </p>
 
 A **remote multi-server GPU status board** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web: one glance at every GPU server you can reach over SSH, right from the sidebar — a collapsible panel plus agent tools.
